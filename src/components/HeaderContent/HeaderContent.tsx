@@ -22,7 +22,7 @@ function HeaderContent() {
             </aside>
             </div>
             <div className={"header-content-container-bottom"}>
-            <a href={"/play-now"}> Jogue Agora <FaGamepad/> </a>
+            <a href={"/#play-now"}> Jogue Agora <FaGamepad/> </a>
             </div>
         </div>
     )

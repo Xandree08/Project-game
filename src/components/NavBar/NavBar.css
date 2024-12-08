@@ -11,6 +11,9 @@
     font-family: Arial;
     font-weight: bold;
 }
+.navbar-scrolled {
+    background-color: rgba(19, 13, 27, 0.66);
+}
 .navbar-main a {
     text-align: center;
     border-radius: 5px;
@@ -19,8 +22,10 @@
     color: rgb(222, 211, 248);
     padding: 10px;
     font-weight: lighter;
-    text-decoration: none;
+    text-decoration: none
+;
 }
+
 .navbar-logo {
     width: auto;
     display: flex;
@@ -100,10 +105,13 @@
 .navbar-menu-list {
     display: flex;
     flex-direction: column;
+    background-color: rgba(19, 13, 27, 0.66);
+    padding: 20px;
+    width: 200px;
     gap: 20px;
     position: absolute;
     top: 50px;
-    right: 0px;
+    right: -10px;
     z-index: 999;
 }
 .navbar-menu-list li {

@@ -8,21 +8,15 @@
     },
     {
       "id": 2,
-      "title": "Novos Obstáculos: Espinhos e Plataformas Móveis",
-      "text": "Adicionamos novos desafios ao cenário: espinhos que causam dano ao toque e plataformas móveis que exigem precisão para atravessar.",
+      "title": "Novos Obstáculos: Mares e plataforma móveis",
+      "text": "Adicionamos novos desafios ao cenário: Agua que casa morte ao toque e plataformas móveis que exigem precisão para atravessar.",
       "image": "spikes_platforms.png"
     },
     {
       "id": 3,
-      "title": "Sistema de Inventário Implementado",
-      "text": "Agora os jogadores podem coletar itens e armazená-los em um inventário. Acesse o inventário pressionando a tecla 'I' e utilize os itens para melhorar sua performance.",
+      "title": "Novo acessório adicionado: Chápeu de Bruxa",
+      "text": "Agora os jogadores podem utilizar do novo acessorio, com tema de Halloween , o chapéu de bruxa.",
       "image": "inventory_system.png"
-    },
-    {
-      "id": 4,
-      "title": "Novo Inimigo: O Golem de Pedra",
-      "text": "Enfrente um novo adversário poderoso, o Golem de Pedra. Ele aparece nas fases avançadas e requer táticas especiais para ser derrotado.",
-      "image": "stone_golem.png"
     }
   ]
 }

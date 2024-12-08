@@ -4,6 +4,7 @@
     height:auto;
     padding: 20px;
     gap: 50px;
+    justify-content: center;
     box-shadow: 1px 1px 20px black;
     background-image: url("../../assets/images/_4cb40e63-41d7-442b-946a-81d936aed818.jpg");
     background-position: 55% 45%;
@@ -21,4 +22,13 @@
     background-color: rgba(21, 21, 21, 0.1);
     left: 0;
     top: 0;
+}
+
+@media (max-width: 760px) {
+    .cards-main {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

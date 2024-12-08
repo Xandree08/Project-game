@@ -17,7 +17,6 @@ const CardUnit:React.FC<CardUnitProps> = ({id,text,title,image}) => {
                         <GiFoxHead />
                         <h3>{title}</h3>
                     </div>
-                    <img src={image} alt={title} className="card-image" />
                     <p>{text}</p>
                     <div className={"card-container-button"}>
                     <button>Saber mais</button>

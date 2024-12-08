@@ -50,3 +50,27 @@
     }
 
 }
+@media (max-width: 1240px) {
+    .updates-main h2::before {
+        width: 10%;
+        animation: none;
+    }
+    .updates-main h2::after{
+        width: 10%;
+        animation: none;
+    }
+}
+@media (max-width: 768px) {
+    .updates-main {
+        padding:20px;
+    }
+    .updates-main h2{
+        font-size: 24px;
+    }
+    .updates-main h2::before {
+        display: none;
+    }
+    .updates-main h2::after{
+       display: none;
+    }
+}

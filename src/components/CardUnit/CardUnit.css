@@ -1,0 +1,64 @@
+.cards-main-container {
+    width: 300px;
+    background-color: #2b233c;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 20px;
+    border-top: 3px solid  #62303f;
+    color: white;
+    font-family: PixelifySans;
+}
+.card-header {
+    background-color: #62303f;
+    border-radius: 20px 20px 0 0 ;
+    display: flex;
+    height: auto;
+    position: relative;
+}
+.card-header svg {
+    color: white;
+    width: 30px;
+    background-color: #272626;
+    border-radius: 30px;
+    top: -20px;
+    left: 45%;
+    height: 30px;
+    position: absolute;
+}
+.cards-main-container h3 {
+    width: auto;
+    padding: 10px;
+}
+
+.cards-main-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #272626;
+    background-color: white;
+    width: 50%;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.cards-main-container button:hover {
+    color: #272626;
+    scale: 1.05;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    border-radius: 30px;
+}
+.card-container-button {
+    width: 100%;
+    padding: 20px;
+}

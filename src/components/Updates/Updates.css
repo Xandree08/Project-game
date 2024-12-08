@@ -1,0 +1,52 @@
+.updates-main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 100px;
+    background: linear-gradient(to right, #1b1625, #312745);
+    font-family: PixelifySans;
+}
+
+.updates-main h2 {
+    width: 100%;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    font-weight: bold;
+    color: white;
+}
+.updates-main h2::before {
+    position: absolute;
+    content: "";
+    border-top: 3px dashed white;
+    left: 0;
+    top: 50%;
+    width: 30%;
+    height: 100%;
+    animation: dashedH2 2s linear;
+}
+.updates-main h2::after{
+    position: absolute;
+    content: "";
+    border-top: 3px dashed white;
+    right: 0;
+    top: 50%;
+    width: 30%;
+    height: 100%;
+    animation: dashedH2 2s linear;
+}
+
+@keyframes dashedH2 {
+    0% {
+        width: 0;
+        border-top: 3px dashed white;
+    }
+    100% {
+        width: 30%;
+        border-top: 3px dashed white;
+    }
+
+}

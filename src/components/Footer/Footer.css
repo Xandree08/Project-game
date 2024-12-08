@@ -1,0 +1,75 @@
+.footer-main {
+    background: #342a48;
+    box-shadow: inset 1px 1px 100px #1c1726;
+}
+.footer-header {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Tiny5;
+    padding: 20px;
+    font-size: 56px;
+}
+.navbar-logo svg {
+    color: rgb(179, 154, 239);
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-header span{
+    background: linear-gradient(to top, #faf8f7, rgb(179, 154, 239));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-copyright {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    color: white;
+}
+.footer-copyright p {
+    margin: 0;
+    font-size: 12px;
+}
+.footer-content-left {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+}
+.footer-content-left-students {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.footer-students {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    background: linear-gradient(to right, #2b233c,#332a47,#48306c);
+}
+.footer-students span {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .footer-header {
+        font-size: 32px;
+    }
+    .footer-content-left {
+        padding: 20px;
+    }
+    .footer-content-left-students {
+        flex-direction: column;
+    }
+
+
+}

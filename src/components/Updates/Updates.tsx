@@ -1,7 +1,6 @@
 import "./Updates.css"
 import Cards from "../Cards/Cards";
 import { GrUpdate } from "react-icons/gr";
-import UnityGame from "../UnityGame/UnityGame";
 
 
 function Updates (){

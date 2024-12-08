@@ -1,5 +1,4 @@
 import "./Cards.css"
-import {GiFoxHead} from "react-icons/gi";
 import CardUnit from "../CardUnit/CardUnit";
 import Card from "../../json/Cards.json"
 

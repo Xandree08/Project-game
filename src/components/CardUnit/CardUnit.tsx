@@ -1,6 +1,5 @@
 import "./CardUnit.css"
 import {GiFoxHead} from "react-icons/gi";
-import Cards from "../../json/Cards.json"
 
 interface CardUnitProps {
     id:number,

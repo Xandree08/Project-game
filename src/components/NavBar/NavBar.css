@@ -19,6 +19,7 @@
     color: rgb(222, 211, 248);
     padding: 10px;
     font-weight: lighter;
+    text-decoration: none;
 }
 .navbar-logo {
     width: auto;

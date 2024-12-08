@@ -14,9 +14,9 @@ function NavBar (){
                 <GiFoxHead/>
             </div>
             <ul className={"navbar-list"}>
-                <li><a> O Jogo </a></li>
-                <li><a> Noticias</a></li>
-                <li><a> Atualizações </a></li>
+                <li><a href={"/"}> O Jogo </a></li>
+                <li><a href={"/"}> Noticias</a></li>
+                <li><a href={"/"}> Atualizações </a></li>
             </ul>
             <div className={"navbar-search"}>
                 <FaSearch/>

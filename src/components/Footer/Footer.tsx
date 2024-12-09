@@ -2,7 +2,7 @@ import "./Footer.css"
 
 function Footer (){
     return (
-        <div className={"footer-main"}>
+        <div className={"footer-main"} id={"footer"}>
             <div className={"footer-header"}>
                 <span> PROJECT A3 </span>
             </div>

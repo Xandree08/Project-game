@@ -5,7 +5,7 @@ import { GrUpdate } from "react-icons/gr";
 
 function Updates (){
     return (
-        <div className={"updates-main"}>
+        <div className={"updates-main"} id={"updates"}>
             <h2> Notas de Atualizações <GrUpdate/></h2>
             <Cards/>
         </div>

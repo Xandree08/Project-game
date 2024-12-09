@@ -23,7 +23,7 @@ function Footer (){
                             <p> RA:125111345409</p>
                         </div>
                         <div className={"footer-students"}>
-                            <span> Gabriel Caravalho </span>
+                            <span> Gabriel Carvalho </span>
                             <p> RA: 125111364427</p>
                         </div>
                         <div className={"footer-students"}>
@@ -35,9 +35,6 @@ function Footer (){
                             <p> RA: 125111376370</p>
                         </div>
                     </div>
-
-                </div>
-                <div className={"footer-content-right"}>
 
                 </div>
             </div>

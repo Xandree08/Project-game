@@ -27,7 +27,7 @@ function NavBar (){
     return (
         <nav className={`navbar-main ${scrolled ? "navbar-scrolled" : ""}`}>
             <div className={"navbar-logo"}>
-                <span> PROJECT A3 </span>
+                <span> PROJETO A3 </span>
                 <GiFoxHead/>
             </div>
             <ul className={"navbar-list"}>

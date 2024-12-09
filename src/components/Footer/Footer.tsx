@@ -4,7 +4,7 @@ function Footer (){
     return (
         <div className={"footer-main"} id={"footer"}>
             <div className={"footer-header"}>
-                <span> PROJECT A3 </span>
+                <span> Projeto A3 </span>
             </div>
             <div className={"footer-content"}>
                 <div className={"footer-content-left"}>
@@ -20,7 +20,7 @@ function Footer (){
 
                         <div className={"footer-students"}>
                             <span> Roberta</span>
-                            <p> RA: 12522181874</p>
+                            <p> RA:125111345409</p>
                         </div>
                         <div className={"footer-students"}>
                             <span> Gabriel Caravalho </span>

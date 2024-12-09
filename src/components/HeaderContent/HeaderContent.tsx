@@ -9,7 +9,7 @@ function HeaderContent() {
         <div className={"header-content-main"}>
             <div className={"header-content-container-top"}>
             <section className={"header-content-left"}>
-                <h1> Project A3</h1>
+                <h1> O Pulo da Raposa</h1>
                 <h2> Prepare-se para testar seus reflexos em nosso emocionante jogo 2D!
                     Desvie de obstáculos cada vez mais desafiadores e veja até onde você pode chegar.</h2>
             </section>

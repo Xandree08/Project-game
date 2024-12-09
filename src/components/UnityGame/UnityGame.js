@@ -44,7 +44,6 @@ const UnityGame = () => {
         };
 
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-            // Mobile adjustments
             const meta = document.createElement("meta");
             meta.name = "viewport";
             meta.content =
@@ -78,7 +77,6 @@ const UnityGame = () => {
         document.body.appendChild(script);
 
         return () => {
-            // Cleanup script
             document.body.removeChild(script);
         };
     }, []);
@@ -88,16 +86,16 @@ const UnityGame = () => {
             id="unity-container"
             ref={unityContainerRef}
             className="unity-desktop"
-            style={{width:"100%" , height: "90vh"}}
+            style={{ position:"relative", width: "100%", height: "90vh" }}
         >
             <canvas
                 id="unity-canvas"
                 ref={canvasRef}
                 style={{
-                        display: "flex",
-                        margin: "0 auto",
-                        width: "100%",
-                    }}
+                    display: "flex",
+                    margin: "0 auto",
+                    width: "100%",
+                }}
             ></canvas>
             <div id="unity-loading-bar" ref={loadingBarRef} style={{ display: "none" }}>
                 <div id="unity-logo"></div>
@@ -106,13 +104,24 @@ const UnityGame = () => {
                 </div>
             </div>
             <div id="unity-warning" ref={warningBannerRef}></div>
-            <div id="unity-footer">
-                <div id="unity-webgl-logo"></div>
-                <div
-                    id="unity-fullscreen-button"
+            <div id="unity-footer" style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+                <button
                     ref={fullscreenButtonRef}
-                    style={{ cursor: "pointer" }}
-                ></div>
+                    style={{
+                        position:"absolute",
+                        padding: "10px 20px",
+                        cursor: "pointer",
+                        backgroundColor: "#3b3b3c",
+                        color: "white",
+                        top:"10px",
+                        right:"40px",
+                        border: "none",
+                        borderRadius: "5px",
+                        fontSize: "16px",
+                    }}
+                >
+                    Fullscreen
+                </button>
             </div>
         </div>
     );

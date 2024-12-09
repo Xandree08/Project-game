@@ -15,7 +15,7 @@ function Footer (){
                         </div>
                         <div className={"footer-students"}>
                             <span> Thiago </span>
-                            <p> RA: 12522181874</p>
+                            <p> RA: 12522224744</p>
                         </div>
 
                         <div className={"footer-students"}>
@@ -23,16 +23,16 @@ function Footer (){
                             <p> RA: 12522181874</p>
                         </div>
                         <div className={"footer-students"}>
-                            <span> Gabriel </span>
-                            <p> RA: 12522181874</p>
+                            <span> Gabriel Caravalho </span>
+                            <p> RA: 125111364427</p>
                         </div>
                         <div className={"footer-students"}>
                             <span> Gabriel </span>
-                            <p> RA: 12522181874</p>
+                            <p> RA: 125111364427</p>
                         </div>
                         <div className={"footer-students"}>
                             <span> Isabelle </span>
-                            <p> RA: 12522181874</p>
+                            <p> RA: 125111376370</p>
                         </div>
                     </div>
 
